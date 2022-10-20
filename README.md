@@ -16,10 +16,10 @@ El reparto de vacaciones y días libres en una empresa se puede convertir en una
 Las empresas enviarían los perfiles de los empleados con todos los datos que se deberían tomer en cuenta para la elección, además de información sobre los proyectos que llevarán, las personas implicadas en ellos y las fechas importantes a tomar en cuenta. Dados todos estos datos, se realizará un primer borrador, que irá cambiando a medida que los empleados vayan eligiendo y aceptando los días que se les ha ofrecido hasta que todos hayan quedado conformes, en la medida de lo posible.
 
 Historias de usuarios:
-https://github.com/RafaelT00/AutoIV/blob/iv-objetivo-1/docs/Readme_historias.md
+https://github.com/RafaelT00/AutoIV/blob/iv-objetivo-1/docs/historias.md
 
-Milestnes:
-https://github.com/RafaelT00/AutoIV/blob/iv-objetivo-1/docs/README_milestones.md
+Milestones:
+https://github.com/RafaelT00/AutoIV/blob/iv-objetivo-1/docs/milestones.md
 
 Personas:
-https://github.com/RafaelT00/AutoIV/blob/iv-objetivo-1/docs/README_personas.md
+https://github.com/RafaelT00/AutoIV/blob/iv-objetivo-1/docs/personas.md
