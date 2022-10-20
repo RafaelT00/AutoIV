@@ -27,6 +27,3 @@ Milestones
   Puede que ocurrir que un empleado no tenga aceptada ninguna de sus opciones. No es esperable que se tengan todas las asignaciones a la primera, simplemente se irá notificando a los empelados para que vuelvan a realizar una solicitud, indicando además ahora los periodos disponibles. La nueva solicitud será necesario que se envíe en un corto plazo para poder continuar con las asignaciones, si no perderá su prioridad. Este proceso continuará hasta que se haya conseguido satisfacer todos los solicitantes.
 
   En este punto el programa deberá ser capaz de tomar las solicitudes y con la información disponible de los empleados rellenar el calendario sobre el que se quiera hacer las peticiones.
-  
-3. Cambios
-  Es normal que después de haber acabado con las asignaciones haya reclamaciones o peticiones de cambios, por lo que debemos asegurarnos que sea fácilmente hacer cambios o intercambios entre empleados.
