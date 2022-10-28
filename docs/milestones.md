@@ -3,15 +3,6 @@ Milestones
 
 -0.Almacenar los datos de los empleados.
   Necesitamos almacenar los datos de los empleados. Únicamente almacenaremos los datos que vayan a influir en la decisión de que prioridad darle al empleado en la elección de las vacaciones.
-  Utilizaremos alguna estructura que almacene:
-  -Nombre y Apellidos
-  -Identificación
-  -Posición en la empresa
-  -Años en la empresa
-  -A qué proyectos está asignado y el papel que desempeña en ellos
-  -Si tiene hijos o no, y también si son pequeños de más grandes
-  -Otros datos personales que deberían tomarse en cuenta
-  Los dos primeros datos nos sirven para identificar al empleado y todos los demás son lo que utilizaremos para la toma de decisión. Para ello habrá que transformar todos los datos a algún formato numérico que podamos utilizar para hacer los cálculos.
   Es necesario que en este punto el programa compile y pueda acceder fácilmente a los datos almacenados.
 
 -1.Almacenar el calendario de la empresa
