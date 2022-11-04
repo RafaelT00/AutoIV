@@ -2,10 +2,10 @@
 Milestones
 
 -0.Almacenar los datos de los empleados.
-  Necesitamos almacenar los datos de los empleados. Únicamente almacenaremos los datos que vayan a influir en la decisión de que prioridad darle al empleado en la elección de las vacaciones.
-  Es necesario que en este punto el programa compile y pueda acceder fácilmente a los datos almacenados.
+  Necesitamos almacenar el calendario de trabajo de la empresa en el periodo en el que se quiere realizar las asignaciones. Cada día habrá información de si hay en marcha un proyecto o una actividad. Sobre este calendario asignaremos las vacaciones de los empleados.
+Debe compilar correctamente y poder acceder a los datos para consultarlos y para añadir información sobre qué empleado/s están de vacaciones en ese periodo/día.
 
--1.Almacenar el calendario de la empresa
+-1.Crear estructura del calendario de la Empresa.
   Necesitamos almacenar el calendario de trabajo de la empresa en el periodo en el que se quiere realizar las asignaciones. Cada día habrá información de si hay en marcha un proyecto o una actividad. Sobre este calendario asignaremos las vacaciones de los empleados.
   Debe compilar correctamente y poder acceder a los datos para consultarlos y para añadir información sobre qué empleado/s están de vacaciones en ese periodo/día.
   
