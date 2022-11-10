@@ -1,18 +1,14 @@
 
 Milestones
 
--0.Recopilar los datos de los empleados.
+-0.Recopilar los datos de los empleados y las restricciones de los empleados y empresa.
   Necesitamos los datos de los empleados para los que vamos a realizar asignaciones
 Es necesario que en este punto el programa compile, pueda acceder fácilmente a los datos almacenados y que estos sean correctos.
-
-1.Recopilar las restricciones de los empleados y de la empresa.
-  Tanto la empresa como el empleado tendrán restriciones sobre los diías que pueden o no escoger.
-Debe compilar correctamente y poder acceder a los datos para consultarlos y para añadir información sobre qué empleado/s están de vacaciones en ese periodo/día.
   
--2.Ordenar según prioridad.
+-1.Ordenar según prioridad.
   A partir de los datos de los empleados y de las restriciones de este y la empresa ordenamos la lista de empleados según prioridad.
 
--3.Asignación de los periodos
+-2.Asignación de los periodos
   Cada empleado podrá tener varias opciones ordenadas por preferencia. Para cada solicitud se comprobará que durante el periodo solicitado realmente se pueda dar las vacaciones, es decir, que el empleado no sea estrictamente necesario en un determinado proyecto, tarea o cualquier otro motivo. Se comprobará entonces si "hay hueco" en el periodo solicitado. Si no se pudiera se realiza la misma comprobación con las diferentes opciones que el empleado haya realizado.
 
 La asignación se realizará empezando desde la solicitud con mayor prioridad hasta las de menos.
