@@ -2,7 +2,7 @@
 Milestones
 
 -0.Recopilar los datos de los empleados y las restricciones de los empleados y empresa.
-  Necesitamos los datos de los empleados para los que vamos a realizar asignaciones
+  Necesitamos los datos de los empleados para los que vamos a realizar asignaciones, además de las restricciones que puedan tener tanto el empleado como la empresa para las asignaciones.
 Es necesario que en este punto el programa compile, pueda acceder fácilmente a los datos almacenados y que estos sean correctos.
   
 -1.Ordenar según prioridad.
