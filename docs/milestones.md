@@ -1,20 +1,23 @@
 
 Milestones
 
--0.Almacenar los datos de los empleados.
-  Necesitamos almacenar el calendario de trabajo de la empresa en el periodo en el que se quiere realizar las asignaciones. Cada día habrá información de si hay en marcha un proyecto o una actividad. Sobre este calendario asignaremos las vacaciones de los empleados.
+-0.Recopilar los datos de los empleados.
+  Necesitamos los datos de los empleados para los que vamos a realizar asignaciones
+Es necesario que en este punto el programa compile, pueda acceder fácilmente a los datos almacenados y que estos sean correctos.
+
+1.Recopilar las restricciones de los empleados y de la empresa.
+  Tanto la empresa como el empleado tendrán restriciones sobre los diías que pueden o no escoger.
 Debe compilar correctamente y poder acceder a los datos para consultarlos y para añadir información sobre qué empleado/s están de vacaciones en ese periodo/día.
-
--1.Crear estructura del calendario de la Empresa.
-  Necesitamos almacenar el calendario de trabajo de la empresa en el periodo en el que se quiere realizar las asignaciones. Cada día habrá información de si hay en marcha un proyecto o una actividad. Sobre este calendario asignaremos las vacaciones de los empleados.
-  Debe compilar correctamente y poder acceder a los datos para consultarlos y para añadir información sobre qué empleado/s están de vacaciones en ese periodo/día.
   
--2.Asignación de los periodos
-  La asignación se realizará sobre el calendario que previamente hemos creado. Cada empleado podrá tener varias opciones ordenadas por preferencia. Para cada solicitud se comprobará que durante el periodo solicitado realmente se pueda dar las vacaciones, es decir, que el empleado no sea estrictamente necesario en un determinado proyecto, tarea o cualquier otro motivo. Se comprobará entonces si en el calendario "hay hueco". Si no se pudiera se realiza la misma comprobación con las diferentes opciones que el empleado haya realizado.
+-2.Ordenar según prioridad.
+  A partir de los datos de los empleados y de las restriciones de este y la empresa ordenamos la lista de empleados según prioridad.
 
-  La asignación se realizará empezando desde la solicitud con mayor prioridad hasta las de menos.
-  Los periodos solicitados deberán ser de una forma concreta, por ejemplo, solo se podrá solicitar periodos de x semanas.
+-3.Asignación de los periodos
+  Cada empleado podrá tener varias opciones ordenadas por preferencia. Para cada solicitud se comprobará que durante el periodo solicitado realmente se pueda dar las vacaciones, es decir, que el empleado no sea estrictamente necesario en un determinado proyecto, tarea o cualquier otro motivo. Se comprobará entonces si "hay hueco" en el periodo solicitado. Si no se pudiera se realiza la misma comprobación con las diferentes opciones que el empleado haya realizado.
 
-  Puede que ocurrir que un empleado no tenga aceptada ninguna de sus opciones. No es esperable que se tengan todas las asignaciones a la primera, simplemente se irá notificando a los empelados para que vuelvan a realizar una solicitud, indicando además ahora los periodos disponibles. La nueva solicitud será necesario que se envíe en un corto plazo para poder continuar con las asignaciones, si no perderá su prioridad. Este proceso continuará hasta que se haya conseguido satisfacer todos los solicitantes.
+La asignación se realizará empezando desde la solicitud con mayor prioridad hasta las de menos.
+Los periodos solicitados deberán ser de una forma concreta, por ejemplo, solo se podrá solicitar periodos de x semanas.
 
-  En este punto el programa deberá ser capaz de tomar las solicitudes y con la información disponible de los empleados rellenar el calendario sobre el que se quiera hacer las peticiones.
+Puede que ocurrir que un empleado no tenga aceptada ninguna de sus opciones. No es esperable que se tengan todas las asignaciones a la primera, simplemente se irá notificando a los empelados para que vuelvan a realizar una solicitud, indicando además ahora los periodos disponibles. La nueva solicitud será necesario que se envíe en un corto plazo para poder continuar con las asignaciones, si no perderá su prioridad. Este proceso continuará hasta que se haya conseguido satisfacer todos los solicitantes.
+
+En este punto el programa deberá ser capaz de tomar las solicitudes y con la información disponible de los empleados rellenar el calendario sobre el que se quiera hacer las peticiones.
