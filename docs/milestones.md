@@ -1,9 +1,10 @@
 
 Milestones
 
--0.Aplicación para organizar vacaciones.
-  Una aplicación que a partir de los datos de los empleados y de la empresa organice las vacaciones de los empleados de la empresa de manera que los empleados esten satisfechos y además que no haya en ningún momento falta de personal en la empresa.
-
+-0.Modelo de estructuras de datos que se utilizaran.
+  Creación de una estructura de datos para los empleados de la empresa y una estructura para los proyectos de la empresa y sus restricciones.
+  A este punto debe compilar sin fallos.
+  
 -1.Recopilar los datos de los empleados y las restricciones de los empleados y empresa.
   Necesitamos los datos de los empleados para los que vamos a realizar asignaciones, además de las restricciones que puedan tener tanto el empleado como la empresa para las asignaciones.
 Es necesario que en este punto el programa compile, pueda acceder fácilmente a los datos almacenados y que estos sean correctos.
