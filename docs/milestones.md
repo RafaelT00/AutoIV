@@ -2,8 +2,8 @@
 Milestones
 
 -0.Modelo de estructuras de datos que se utilizaran.
-  Creación de una estructura de datos para los empleados de la empresa y una estructura para los proyectos de la empresa y sus restricciones.
-  A este punto debe compilar sin fallos.
+  Creación de una estructura de datos para los empleados de la empresa y una estructura para los proyectos de la empresa y sus restricciones. Por último, una estructura de datos que represente el calendario con las asignaciones realizadas.
+A este punto debe compilar sin fallos.
   
 -1.Recopilar los datos de los empleados y las restricciones de los empleados y empresa.
   Necesitamos los datos de los empleados para los que vamos a realizar asignaciones, además de las restricciones que puedan tener tanto el empleado como la empresa para las asignaciones.
