@@ -4,7 +4,6 @@ import (
 	fmt
 	time
 )
-
 type Restricciones struct{
 	NombreProyecto string
 	Personas []string
