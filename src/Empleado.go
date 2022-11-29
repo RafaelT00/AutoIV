@@ -1,10 +1,9 @@
 package src
 
 import (
-	fmt
+	fmt 
 	Vacaciones
 )
-
 type Empleado struct{
 	Nombre string
 	Ficha string
