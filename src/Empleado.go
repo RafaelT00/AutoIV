@@ -9,4 +9,7 @@ type Empleado struct{
 	Ficha string
 	DiasLibres []Vacaciones
 	Proyectos []Restricciones
+	Peticiones uint
+	Antiguedad uint
+	VacacionesElegidas bool
 }
