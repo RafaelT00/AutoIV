@@ -1,13 +1,8 @@
 # Documentación sobre la implementación
 ## Análisis del dominio
-Según el [Milestone 0](https://github.com/RafaelT00/AutoIV/milestone/6), para superar este hito es necesario crear una estructura de datos de empleados y otra para los proyectos y las restricciones. Además se necesita una estructura de datos de las vacaciones asignadas. Según la [HU01](https://github.com/RafaelT00/AutoIV/issues/7) se necesita asimilar las peticiones cuando son muchas y asignar vacaciones según esto.
-
-Para esto, el primer *issue* necesario ha sido la [elección del lenguaje de programación](https://github.com/RafaelT00/AutoIV/issues/8), en el cual se han propuesto varios tales como Python, Ruby, C++, pero al final el elegido ha resultado ser Go, ya que el compañero quería aprenderlo. Después de asignar el lenguaje me surgió la duda de las [clases/estructuras necesarias](https://github.com/RafaelT00/AutoIV/issues/9), que están en el Milestone 0 y se pueden sacar algunas de la HU, pero quería quitarme la duda. Para esto se ha sacado que se necesita de la clase Empleado, Vacaciones y Restricciones.
-
 Me surgió la necesidad de preguntar los atributos que iban a tener cada clase, Empleado, Vacaciones y Restricciones. 
 - [Empleado](https://github.com/RafaelT00/AutoIV/issues/10)
 - [Vacaciones](https://github.com/RafaelT00/AutoIV/issues/11)
-- [Restricciones](https://github.com/RafaelT00/AutoIV/issues/12)
 
 Después de entender un poco más sobre las clases que iba a tener, tuve que preguntar como se iban a relacionar las clases entre ellas. Me surgió la duda de [como se gestionarían las peticiones entre los empleados y las vacaciones](https://github.com/RafaelT00/AutoIV/issues/15), en las que quedó claro que las tendrían que gestionarse desde los propios empleados.
 
