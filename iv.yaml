@@ -1,5 +1,4 @@
 ---
-
 lenguaje: Go
 entidad: 
   - src/Vacaciones.go
