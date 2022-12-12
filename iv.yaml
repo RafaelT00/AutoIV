@@ -1,2 +1,6 @@
+---
+
 lenguaje: Go
-entidad: src/Vacaciones.go
+entidad: 
+  src/Vacaciones.go
+  src/Restricciones.go
