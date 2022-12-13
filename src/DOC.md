@@ -1,9 +1,5 @@
 # Documentación sobre la implementación
 ## Análisis del dominio
-Me surgió la necesidad de preguntar los atributos que iban a tener cada clase, Empleado, Vacaciones y Restricciones. 
-- [Empleado](https://github.com/RafaelT00/AutoIV/issues/10)
-- [Vacaciones](https://github.com/RafaelT00/AutoIV/issues/11)
-
 Después de entender un poco más sobre las clases que iba a tener, tuve que preguntar como se iban a relacionar las clases entre ellas. Me surgió la duda de [como se gestionarían las peticiones entre los empleados y las vacaciones](https://github.com/RafaelT00/AutoIV/issues/15), en las que quedó claro que las tendrían que gestionarse desde los propios empleados.
 
 Más tarde apareció la duda del calendario según el M0, [como se va a gestionar entre las vacaciones y los empleados](https://github.com/RafaelT00/AutoIV/issues/16), en el cuál según Rafael quedó bien definido gracias al issue de los atributos de Vacaciones.
