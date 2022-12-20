@@ -1,5 +1,5 @@
 ---
 lenguaje: Go
 entidad: 
-  - src/Vacaciones.go
-  - src/Restricciones.go
+  - internal/Vacaciones.go
+  - internal/Restricciones.go
