@@ -1,8 +1,8 @@
 # Documentación sobre la implementación
 ## Análisis del dominio
-Después de entender un poco más sobre las clases que iba a tener, tuve que preguntar como se iban a relacionar las clases entre ellas. Me surgió la duda de [como se gestionarían las peticiones entre los empleados y las vacaciones](https://github.com/RafaelT00/AutoIV/issues/15), en las que quedó claro que las tendrían que gestionarse desde los propios empleados.
+Después de tantos issues mal planteados puedo entender mejor a lo que el problema se refiere. Para esto un problema que me encontré es como se van a gestionar las peticiones [como se gestionarían las peticiones entre los empleados y las vacaciones](https://github.com/RafaelT00/AutoIV/issues/15), aunque el issue mal planteado también porque se tiene que discutir en el PR.
 
-Más tarde apareció la duda del calendario según el M0, [como se va a gestionar entre las vacaciones y los empleados](https://github.com/RafaelT00/AutoIV/issues/16), en el cuál según Rafael quedó bien definido gracias al issue de los atributos de Vacaciones.
+Más tarde apareció el problema del calendario según el M0, [como se va a gestionar entre las vacaciones y los empleados](https://github.com/RafaelT00/AutoIV/issues/16), que también se plante mal aunque queda resuelto el problema.
 
 Después tuve que ver si había alguna [diferencia entre Empleado y el encargado de asignar vacaciones](https://github.com/RafaelT00/AutoIV/issues/17), en el cuál quedo claro que no había falta diferenciar entre estos dos.
 
