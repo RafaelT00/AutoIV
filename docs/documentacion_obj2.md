@@ -4,5 +4,9 @@ Analizamos la HU RafaelT00#7. Es necesario entender como se van a relacionar las
 
 Después el siguiente problema que me encontré son las tareas, en las que tengo que comprender como cuantificar las tareas importantes, cual es su dificultad, cuantas tareas tiene un empleado. Planteado en RafaelT00#20. En este problema planteo una solución que la propongo con este commit [17f2199](https://github.com/ignaciotitos/AutoIV/commit/17f2199aa10ca01182bf7c21eb058762507fe183)
 
+Más tarde surgió el problema de como se iban a gestionar las peticiones por parte de los encargados, cuando son las épocas de mayores peticiones y como afectan a las asignaciones. Este problema está referenciado en este issue RafaelT00#21, en el que añadí una solución en los commmits 
+[17f2199](https://github.com/ignaciotitos/AutoIV/commit/17f2199aa10ca01182bf7c21eb058762507fe183),
+[3a5c699](https://github.com/ignaciotitos/AutoIV/commit/3a5c69914382e0ff4853c232d184ce7706a0cad7)
+
 ## Objeto valor o entidad
-Para cada clase ha sido necesario saber cómo va a funcionar cada clase, para saber si van a ser inmutables o mutables. Para esto ha sido necesario hablar con Rafael y entender cómo se van a asignar las distintas clases. Por ello, la clase Vacaciones, va a ser una entidad ya que van a ser mutables. Empleado en este caso se han hecho unas modificaciones para que las partes mutables de Empleado se tengan en cuenta al instanciar un empleado en Vacaciones, y desde esta clase poder ir modificando lo necesario para este. Empleado será el objeto valor.
+Para cada clase ha sido necesario saber cómo va a funcionar cada clase, para saber si van a ser inmutables o mutables. Para esto ha sido necesario entender el problema para estructurar las clases. He propuesto una solución en el que las entidades sean Peticiones y Manejo y el objeto valor sea Empleado.
