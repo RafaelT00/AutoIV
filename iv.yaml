@@ -1,5 +1,5 @@
 ---
 lenguaje: Go
 entidad: 
-  - internal/Vacaciones.go
-  - internal/Restricciones.go
+  - internal/Peticiones.go
+  - internal/Manejo.go
