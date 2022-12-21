@@ -5,10 +5,10 @@ import "time"
 type Season uint8
 
 const (
-	Invierno Season = 1
-	Primavera 		= 2
-	Verano 			= 3
-	Otonio			= 4
+	Invierno Season = 0
+	Primavera 		= 1
+	Verano 			= 2
+	Otonio			= 3
 )
 
 type Peticiones struct{
