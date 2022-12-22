@@ -10,6 +10,6 @@ const (
 )
 
 type Manejar struct {
-	Tareas     []Tarea
-	Peticiones Peticiones
+	tareas     []Tarea
+	peticiones Peticiones
 }
