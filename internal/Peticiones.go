@@ -12,6 +12,6 @@ const (
 )
 
 type Peticiones struct {
-	DiasQueQuiero []time.Time
-	Temporada     Season
+	diasQueQuiero []time.Time
+	temporada     Season
 }
