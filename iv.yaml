@@ -1,0 +1,5 @@
+---
+lenguaje: Go
+entidad: 
+  - internal/Peticiones.go
+  - internal/Manejo.go
