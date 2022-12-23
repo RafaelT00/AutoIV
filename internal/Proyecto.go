@@ -12,5 +12,5 @@ const (
 type Proyecto struct {
 	tareas           []Tarea
 	empleadosEnTarea []Empleado
-	durabilidad      uint8
+	duracion	     uint8
 }
