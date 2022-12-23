@@ -1,32 +1,27 @@
 package internal
 
-type Season uint8
-type Semana uint8
+type Season string
+type Semana string
 
 const (
-	Invierno  Season = 0
-	Primavera        = 1
-	Verano           = 2
-	Otonio           = 3
+	Invierno  Season = "Invierno"
+	Primavera        = "Primavera"
+	Verano           = "Verano"
+	Otonio           = "Otonio"
 )
 
 const (
-	Lunes Semana = iota //0
-	Martes
-	Miercoles
-	Jueves
-	Viernes
-	Sabado
-	Domingo //6
+	Lunes 	  Semana = "Lunes"
+	Martes		 	 = "Martes"
+	Miercoles	 	 = "Miercoles"
+	Jueves 		 	 = "Jueves"
+	Viernes 	 	 = "Viernes"
+	Sabado 		 	 = "Sabado"
+	Domingo 	 	 = "Domingo"
 )
 
 type Peticiones struct {
 	diasQueQuiero uint
 	temporada     Season
 	dia           Semana
-}
-
-// s.String() devuelve el dia de la semana en string en vez de en numero
-func (s Semana) String() string {
-	return []string{"Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"}[s]
 }
